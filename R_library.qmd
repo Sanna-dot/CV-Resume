@@ -1,0 +1,70 @@
+---
+title: "R Libraries"
+format: pdf
+---
+
+## Data and Big Data Analysis
+
+```{r}
+library(tidyverse) 
+library(dplyr) 
+library(data.table) 
+library(tidyquant)# tibble, essentially tidyverse for finance 
+library(quantmod)# finance data 
+```
+
+## Plotting & Data Visualization
+
+```{r}
+library(ggplot2) 
+library(plotly)# interactive statistical plot 
+library(corrplot)# corr matrix graphical representation 
+library(factoextra)# plot(FactoMineR) 
+library(rpart.plot)# CART plot 
+library(NeuralNetTools) # plot neural networks 
+```
+
+## Time Series and Forecasting
+
+```{r}
+library(forecast)# univariate analysis, ARIMA 
+library(tseries)# time series analysis, regression, predictions and test 
+library(rugarch)# ARCH-GARCH Model 
+library(urca)# econometric test 
+library(TSA)# test used for ARCH GARCH  
+```
+
+## Spatial Analysis
+
+```{r}
+library(sf)# integration of GIS and spatial data 
+library(spdep)# spatial matrix 
+library(spatialreg) # spatial econometrics 
+```
+
+## Statistical Tests
+
+```{r}
+library(lmtest)# test for linear regression model 
+library(fNonlinear)# test the absence of linearity in data 
+library(heplots)# test BOX M for LDA 
+library(vcvComp)# study and compare variance covariance matrix
+```
+
+## Data Science
+
+```{r}
+library(rpart)# CART (classification and regression tree) (supervised machine learning) 
+library(randomForest)# random forest (supervised machine learning) 
+library(FactoMineR)# multivariate analysis (like PCA) 
+library(nnet)# neural network 
+library(MASS)# linear and quadratic discriminant analysis (LDA-QDA) (supervised) 
+library(ROCR)# evaluating classification models
+```
+
+## Sampling
+
+```{r}
+library(sampling)# apply sample theory framework (access to different sampling methods) 
+library(boot)# bootstrap method to estimate error bias and confidence interval 
+```
